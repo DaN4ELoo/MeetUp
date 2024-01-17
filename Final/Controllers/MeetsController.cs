@@ -26,7 +26,7 @@ namespace Final.Controllers
         [HttpGet]
         public async Task<ActionResult<List<ResponseDTO>>> GetMeets()
         {
-
+          
             var meets = await appDbContext.meets.ToListAsync();
             return Ok(meets.Select(mapper.Map<ResponseDTO>));
 
