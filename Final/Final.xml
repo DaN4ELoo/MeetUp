@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<doc>
+	<assembly>
+		<name>CRUDBooks</name>
+	</assembly>
+	<members>
+		<member name="T:Final.Models.Meet">
+			<summary>
+				Represents a book entity.
+			</summary>
+		</member>
+	</members>
+</doc>
